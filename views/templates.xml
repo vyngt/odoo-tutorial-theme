@@ -1,0 +1,11 @@
+<odoo>
+  <template id="tutorial_theme.playground" name="kkkkkkk">
+    <html>
+      <head>
+        <t t-call-assets="tutorial_theme.assets_tutorial_theme" />
+      </head>
+      <body>
+      </body>
+    </html>
+  </template>
+</odoo>

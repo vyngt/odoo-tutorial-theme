@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="tutorial_theme.playground" owl="1">
+        <div class="p-3">
+            <p>Hello world</p>
+            <Color/>
+            <Color />
+        </div>
+    </t>
+</templates>
