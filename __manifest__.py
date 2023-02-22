@@ -10,7 +10,7 @@
     """,
     "author": "vyngt",
     "website": "https://github.com/vyngt",
-    "category": "Uncategorized",
+    "category": "Website/Theme",
     "version": "16.0.1.0.0",
     "depends": ["base", "web"],
     "data": [
