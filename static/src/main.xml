@@ -5,6 +5,8 @@
             <p>Hello world</p>
             <Color/>
             <Color />
+            <p>Todo</p>
+            <Todo items="state.items"/>
         </div>
     </t>
 </templates>

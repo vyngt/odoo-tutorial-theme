@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="tutorial_theme.Item" owl="1">
+        <t t-if="props.done">
+            <div class="todo-done"><t t-esc="props.id"/>. <t t-esc="props.description"/></div>
+        </t>
+        <t t-elif="!props.done">
+            <div><t t-esc="props.id"/>. <t t-esc="props.description"/></div>
+        </t>
+    </t>
+</templates>
