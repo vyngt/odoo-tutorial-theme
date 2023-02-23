@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="tutorial_theme.Todo" owl="1">
-        <t t-foreach="props.items" t-as="item" t-key="item.id">
-            <Item id="item.id" description="item.description" done="item.done" />
+        <div>
+            <input type="text" id="todo-item-description" placeholder="Enter a new task" t-on-keyup="add_item" t-ref="todo-ref"/>
+        </div>
+        <t t-foreach="this.items" t-as="item" t-key="item.id">
+            <Item id="item.id" description="item.description" done="item.done" toggle_state.bind="toggle_todo" remove_todo.bind="delete_todo" />
         </t>
     </t>
 </templates>

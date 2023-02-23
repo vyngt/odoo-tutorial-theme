@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="tutorial_theme.main" owl="1">
-        <div class="p-3">
-            <p>Hello world</p>
-            <Color/>
+        <div class="container">
+            <h3>Hello world</h3>
+            <h3>Simple</h3>
             <Color />
-            <p>Todo</p>
-            <Todo items="state.items"/>
+            <Color />
+            <h3>Todo</h3>
+            <Todo />
         </div>
     </t>
 </templates>
