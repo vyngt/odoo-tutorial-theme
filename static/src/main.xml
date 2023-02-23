@@ -8,6 +8,12 @@
             <Color />
             <h3>Todo</h3>
             <Todo />
+            <h3>Card</h3>
+            <Card>
+                <t t-set-slot="title">Vyngt</t>
+                <t t-set-slot="content">Hello world</t>
+            </Card>
+            <Card/>
         </div>
     </t>
 </templates>

@@ -2,6 +2,7 @@
 
 import { Color } from "./components/color/color";
 import { Todo } from "./components/todo/todo";
+import { Card } from "./components/card/card";
 import { Component, useState } from "@odoo/owl";
 
 const _items = [
@@ -21,5 +22,5 @@ export class Main extends Component {
   }
 
   static template = "tutorial_theme.main";
-  static components = { Color, Todo };
+  static components = { Color, Todo, Card };
 }
